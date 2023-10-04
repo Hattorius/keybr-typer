@@ -1,10 +1,16 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
+from random import choice
 
 driver = webdriver.Firefox()
 driver.get("https://www.keybr.com/")
 driver.find_element(By.XPATH, "/html/body/div[3]/div/div[2]/div/a").click()
+
+# want to login? Uncomment these lines
+# driver.add_cookie({'name': 'session', 'value': ''})
+# driver.get("https://www.keybr.com/")
+
 driver.find_element(By.CSS_SELECTOR, "body").click()
 
 theSleep = 0.1
@@ -44,4 +50,4 @@ while True:
     typeWords(words)
 
     sleep(1)
-    theSleep *= 0.99
+    theSleep *= choice([1.01, 0.99, 0.99])
