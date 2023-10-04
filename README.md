@@ -10,7 +10,7 @@ Classmate started automizing this. Had to do it too. Record: 147.8 WPM (that got
 5. After ab 7-10 minutes you'll get a very high score
 
 ## Why timeout lower and lower and lower?
-Honestly, though that it might somehow eventually bypass the limit. But I guess there's a limit of 150 WPM on Keybr
+Honestly, though that it might somehow eventually bypass the limit. But I guess there's a limit of 150 WPM on Keybr. Don't feel like removing it again.
 
 ## Requirements
  - Selenium
