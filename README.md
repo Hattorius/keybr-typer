@@ -1,6 +1,6 @@
 # Keybr typer
 ## Why?
-Classmate started automizing this. Had to do it too. Record: 147.8 WPM (that got recorded by heybr.com as well)
+Classmate started automizing this. Had to do it too. Record: 149.9 WPM (that got recorded by heybr.com as well)
 
 ## How it work?
 1. Starts browser
